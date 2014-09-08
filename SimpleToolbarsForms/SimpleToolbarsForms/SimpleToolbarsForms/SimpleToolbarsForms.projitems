@@ -14,7 +14,4 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\BaseView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\MainView.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
-  </ItemGroup>
 </Project>
