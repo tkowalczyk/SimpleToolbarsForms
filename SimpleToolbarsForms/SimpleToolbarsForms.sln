@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToolbarsForms.WinPhone", "SimpleToolbarsForms\SimpleToolbarsForms.WinPhone\SimpleToolbarsForms.WinPhone.csproj", "{4B743C3E-003A-4376-A6CD-3FA4402E528B}"
@@ -12,12 +12,6 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SimpleToolbarsForms", "SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.shproj", "{EFD3E4CB-C813-43D9-A138-BBEFF1016B76}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{efd3e4cb-c813-43d9-a138-bbeff1016b76}*SharedItemsImports = 13
-		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{eac97307-957e-4f2e-aea4-d2bcefde2f60}*SharedItemsImports = 4
-		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{c170e4e5-899a-4d55-b04c-88a9b1af9ef4}*SharedItemsImports = 4
-		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{4b743c3e-003a-4376-a6cd-3fa4402e528b}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
@@ -189,6 +183,15 @@ Global
 		{EAC97307-957E-4F2E-AEA4-D2BCEFDE2F60}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EAC97307-957E-4F2E-AEA4-D2BCEFDE2F60}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
 		{EAC97307-957E-4F2E-AEA4-D2BCEFDE2F60}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SimpleToolbarsForms\SimpleToolbarsForms.Android\SimpleToolbarsForms.Android.csproj
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{efd3e4cb-c813-43d9-a138-bbeff1016b76}*SharedItemsImports = 13
+		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{eac97307-957e-4f2e-aea4-d2bcefde2f60}*SharedItemsImports = 4
+		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{c170e4e5-899a-4d55-b04c-88a9b1af9ef4}*SharedItemsImports = 4
+		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{4b743c3e-003a-4376-a6cd-3fa4402e528b}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
