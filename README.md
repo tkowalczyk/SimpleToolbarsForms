@@ -13,3 +13,11 @@ During the work on some project I couldn't find anything about this in documenta
 - [Android](http://androidapi.xamarin.com/?link=T%3aXamarin.Forms.ToolbarItem);
 
 - works on Windows Phone too.
+
+## Screenshots ##
+
+Android
+
+![](https://raw.githubusercontent.com/tkowalczyk/SimpleToolbarsForms/master/Screenshots/Android/MainScreen.png)
+
+![](https://raw.githubusercontent.com/tkowalczyk/SimpleToolbarsForms/master/Screenshots/Android/MainScreenWithToolBarItems.png)
