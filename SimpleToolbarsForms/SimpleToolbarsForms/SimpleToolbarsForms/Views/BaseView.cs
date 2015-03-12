@@ -10,16 +10,16 @@ namespace SimpleToolbarsForms.Views
         #region ToolBarItems
         private void OpenSettingsView()
         {
-            Debug.WriteLine("Settings Clicked");
+			DisplayAlert("Toolbar Sample", "Settings Clicked", "OK");
         }
         private void OpenSignUpView()
         {
-            Debug.WriteLine("SignUp Clicked");
+			DisplayAlert("Toolbar Sample", "SignUp Clicked", "OK");
         }
 
         private void OpenSignInView()
         {
-            Debug.WriteLine("SignIn Clicked");
+			DisplayAlert("Toolbar Sample", "SignIn Clicked", "OK");
         }
 
         private IList<ToolbarItem> GetToolBarItems()

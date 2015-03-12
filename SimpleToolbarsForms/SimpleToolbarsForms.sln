@@ -184,9 +184,6 @@ Global
 		{EAC97307-957E-4F2E-AEA4-D2BCEFDE2F60}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
 		{EAC97307-957E-4F2E-AEA4-D2BCEFDE2F60}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = SimpleToolbarsForms\SimpleToolbarsForms.Android\SimpleToolbarsForms.Android.csproj
-	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{efd3e4cb-c813-43d9-a138-bbeff1016b76}*SharedItemsImports = 13
 		SimpleToolbarsForms\SimpleToolbarsForms\SimpleToolbarsForms.projitems*{eac97307-957e-4f2e-aea4-d2bcefde2f60}*SharedItemsImports = 4

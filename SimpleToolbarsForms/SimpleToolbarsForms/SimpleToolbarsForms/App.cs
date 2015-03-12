@@ -3,14 +3,11 @@ using Xamarin.Forms;
 
 namespace SimpleToolbarsForms
 {
-	public class App
+	public class App : Application
 	{
-        private static Page NavPage;
-        public static Page GetMainPage()
-        {
-            NavPage = new NavigationPage(new MainView());
-
-            return NavPage;
-        }
+		public App()
+		{
+			MainPage = new NavigationPage(new MainView());
+		}
 	}
 }

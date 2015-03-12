@@ -27,12 +27,5 @@ namespace SimpleToolbarsForms.Views
             this.Content = goToAnotherView;
         }
         #endregion
-
-        #region Overrides
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-        }
-        #endregion
     }
 }

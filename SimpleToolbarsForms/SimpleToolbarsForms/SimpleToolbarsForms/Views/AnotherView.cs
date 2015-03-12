@@ -25,12 +25,5 @@ namespace SimpleToolbarsForms.Views
             this.Content = goBackButton;
         }
         #endregion
-
-        #region Overrides
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-        }
-        #endregion
     }
 }
